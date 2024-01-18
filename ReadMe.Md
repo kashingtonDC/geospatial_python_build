@@ -15,6 +15,11 @@ https://www.anaconda.com/download
 # Setup ~/.zshrc to make terminal outputs prettier
 https://ohmyz.sh/
 
+# add the subl alias to ~/.zshrc to open sublime from the command line
+`vi ~/.zshrc`
+`i`
+`alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"`
+
 # Edit the robbyrussell zsh theme to show full path and tree emoji
 `subl ~/.oh-my-zsh/themes/robbyrussell.zsh-theme`
 
